@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 09, 2020 at 06:57 AM
--- Server version: 10.1.37-MariaDB
--- PHP Version: 5.6.39
+-- Generation Time: Jan 16, 2023 at 11:22 AM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -97,7 +96,7 @@ CREATE TABLE `doctor` (
 --
 
 INSERT INTO `doctor` (`DoctorID`, `Doctorname`, `email`, `Address`, `ContactNumber`, `password`, `categorey`) VALUES
-(1, 'Janobe Sourcecode', 'janobe@g.com', 'Kabankalan City', '0987652723', 'janobe', 'Surgery');
+(1, 'Leticia Oforowaa', 'leticiaoforiwa@gmail.com', 'Kasoa', '0556607194', '1234567', 'Surgery');
 
 -- --------------------------------------------------------
 
@@ -147,7 +146,8 @@ CREATE TABLE `patients` (
 --
 
 INSERT INTO `patients` (`UserID`, `Name`, `Address`, `ContactNumber`, `Email`, `Password`, `Bloodtype`) VALUES
-(123, 'jake zyrus', 'kabankalan city', '0926378322', 'jake@g.com', '1200cf8ad328a60559cf5e7c5f46ee6d', 'a');
+(123, 'Leticia oforiwaa', 'Kwashieman', '0550746180', 'leticia@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'O+'),
+(1, 'Charley Wellington', 'Amasaman - Accra - Stadium Junction', '0550746180', 'wellingtoncharlottenaaodarley@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'O+');
 
 --
 -- Indexes for dumped tables
