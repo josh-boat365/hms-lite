@@ -8,3 +8,18 @@ There is an expected error in the patient and doctor login but once you login th
 
 The project database structure is in the datalayer (FOLDER) - SQL DATABASE EXPORT 
 and its called registration(1)
+
+LOGINS 
+ADMIN 
+ADMIN ID = 1
+ADMIN PASS = admin
+
+PATIENT
+PATIENT ID = 1
+PATIENT PASS = 1234567
+
+DOCTOR 
+DOCTOR ID = 1
+DOCTOR PASS = 12345678
+
+
